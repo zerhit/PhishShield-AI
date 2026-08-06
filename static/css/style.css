@@ -1,0 +1,110 @@
+body{
+    background:#0d1117;
+    color:white;
+    min-height:100vh;
+}
+
+.hero{
+    margin-top:80px;
+}
+
+.scan-card{
+    background:#161b22;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+
+.form-control{
+    background:#21262d;
+    border:none;
+    color:white;
+}
+
+.form-control:focus{
+    background:#21262d;
+    color:white;
+    box-shadow:none;
+    border:1px solid #0d6efd;
+}
+
+.form-control::placeholder{
+    color:#8b949e;
+}
+
+.feature-box{
+    background:#161b22;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.score-circle{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:38px;
+    font-weight:bold;
+    margin:auto;
+    border:12px solid;
+}
+
+.border-safe{
+    border-color:#28a745;
+}
+
+.border-warning{
+    border-color:#ffc107;
+}
+
+.border-danger{
+    border-color:#dc3545;
+}
+
+.list-group-item{
+    background:#21262d;
+    color:white;
+    border:1px solid #30363d;
+}
+
+.input-group-text{
+    background:#21262d;
+    color:white;
+    border:none;
+}
+
+.input-group .form-control{
+    border:none;
+}
+
+.info-card{
+    background:#161b22;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    border:1px solid #30363d;
+}
+
+.info-card h4{
+    color:#58a6ff;
+    margin-bottom:15px;
+}
+
+.score-safe{
+    color:#28a745;
+}
+
+.score-warning{
+    color:#ffc107;
+}
+
+.score-danger{
+    color:#dc3545;
+}
+
+.table{
+    margin-bottom:0;
+}
