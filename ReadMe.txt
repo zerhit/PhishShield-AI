@@ -1,7 +1,7 @@
 # PhishShield AI
 
 ## Overview
-PhishShield AI is a Flask-based web application that analyzes URLs and identifies potentially fraudulent websites using phishing detection heuristics.
+PhishShield AI is a Flask-based web application that detects potentially fraudulent websites by analyzing URL characteristics and phishing indicators.
 
 ## Features
 - URL Risk Analysis
@@ -9,9 +9,9 @@ PhishShield AI is a Flask-based web application that analyzes URLs and identifie
 - Threat Indicators
 - URL Details
 - Safety Recommendations
-- Responsive UI
+- Responsive Dashboard
 
-## Technologies
+## Tech Stack
 - Python
 - Flask
 - HTML
@@ -21,6 +21,13 @@ PhishShield AI is a Flask-based web application that analyzes URLs and identifie
 
 ## How to Run
 
+```bash
 pip install -r requirements.txt
-
 python app.py
+```
+
+## Future Scope
+- Machine Learning based phishing detection
+- AI-generated explanations
+- Browser extension integration
+- Real-time blacklist checking
